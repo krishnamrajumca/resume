@@ -1,0 +1,14 @@
+[
+    {
+        "id": "web_developer",
+        "title": "Web Developer"
+    },
+    {
+        "id": "react_developer",
+        "title": "React Developer"
+    },
+    {
+        "id": "rn_developer",
+        "title": "React Native Developer"
+    }
+]

@@ -32,7 +32,156 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.full-h {
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+  object-fit: fill;
+  height: 100%;
+  position: absolute;
+  left: 0
+}
+
+.relative {
+  position: relative;
+}
+
+.over-video {
+  z-index: 1;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border-width: 10px;
+  border-style: groove;
+  /* border-color: #03e9f4; */
+  /* box-shadow: #03e9f4 0px 10px 0px; */
+  /* box-shadow: #03e9f4 0px 19px 38px, #03e9f4 0px 15px 12px; */
+}
+
+#about,
+#projects,
+#exp {
+  background-image: url('../src/assets/images/2.jpeg');
+  background-position: center;
+  height: -webkit-fill-available;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+
+}
+
+#skills,
+#contact {
+  background-image: url('../src/assets/sun.jpg');
+  background-position: center;
+  height: -webkit-fill-available;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+
+}
+
+.timeline_date {
+  font-weight: 600 !important;
+  color: #78c6c6;
+  font-family: cursive;
+  text-align: left;
+}
+
+.input div {
+  color: #61dafb
+}
+
+.input {
+  max-width: 350px;
+  width: 100%
+}
+
+.input fieldset,
+.input label {
+  color: #c678c6 !important;
+  border-color: #c678c6 !important;
+}
+
+.btn {}
+
+.send {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.send:hover {
+  background-color: #00ffd5 !important;
+}
+
+.send:before {
+  content: "";
+  background: linear-gradient(45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.send:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
 }
