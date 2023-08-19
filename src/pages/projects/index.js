@@ -29,7 +29,7 @@ const Projects = () => {
                         // color: "#b7eb3455"
                     }}
                 >
-                    Work Experience.
+                    Projects.
                 </Typography>
                 <Typography sx={{ maxWidth: 500, textAlign: 'left', fontFamily: 'cursive' }}>
                     Following projects showcases my skills and experience through
