@@ -1,0 +1,38 @@
+.progress {
+    background: rgb(75 55 205 / 30%);
+    justify-content: flex-start;
+    border-radius: 100px;
+    border: 0.5px solid cyan;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* .progress-value {
+
+    width: 68%;
+} */
+
+.progress-value .pv {
+    animation: load 3s normal forwards;
+    background-image: linear-gradient(to right, #78c6c6, #c6c678, #c678c6);
+    height: 15px;
+    box-shadow: 0 5px 20px -50px #fff;
+    border-radius: 100px;
+    /*   background: cyan; */
+
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

@@ -12,43 +12,51 @@ const tech = [
     {
         id: "HTML",
         title: "HTML",
-        icon: HTML
+        icon: HTML,
+        per: 75,
 
     },
     {
         id: "js",
         title: "Java Script",
-        icon: js
+        icon: js,
+        per: 75,
     },
     {
         id: "css",
         title: "CSS3",
-        icon: css
+        icon: css,
+        per: 75,
     },
     {
         id: "react",
         title: "React",
-        icon: react
+        icon: react,
+        per: 80,
     },
     {
         id: "rn",
         title: "React Native",
-        icon: rn
+        icon: rn,
+        per: 75,
     },
     {
         id: "redux",
         title: "Redux",
-        icon: redux
+        icon: redux,
+        per: 80,
     },
     {
         id: "tailwind",
         title: "Tailwind",
-        icon: tailwind
+        icon: tailwind,
+        per: 60,
     },
     {
         id: "node",
         title: "NodeJs",
-        icon: node
+        icon: node,
+        per: 60,
     }
 ]
 export default tech

@@ -16,11 +16,7 @@ const Projects = () => {
                 className="over-video relative"
                 sx={{ padding: "24px", paddingTop: '80px', display: 'flex', flexDirection: 'column', gap: 1, alignItems: 'flex-start' }}
             >
-                <Typography
-                    sx={{ fontSize: 20 }}
-                >
-                    What have i done so far
-                </Typography>
+
                 <Typography
                     sx={{
                         fontSize: {
@@ -35,11 +31,11 @@ const Projects = () => {
                 >
                     Work Experience.
                 </Typography>
-                <Typography sx={{ maxWidth: 500, textAlign: 'left' }}>
+                <Typography sx={{ maxWidth: 500, textAlign: 'left', fontFamily: 'cursive' }}>
                     Following projects showcases my skills and experience through
                     real-world examples of my work.
                 </Typography>
-                <Typography sx={{ maxWidth: 500, textAlign: 'left' }}>
+                <Typography sx={{ maxWidth: 500, textAlign: 'left', fontFamily: 'cursive' }}>
                     It reflects my ability to solve complex problems, work with different technologies,
                     and manage projects effectively.
                 </Typography>

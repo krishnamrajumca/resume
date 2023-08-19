@@ -3,10 +3,16 @@ import emailjs from '@emailjs/browser';
 import Lottie from 'react-lottie';
 import animation from '../../assets/data.json'
 import * as yup from 'yup'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import { useState } from "react";
+import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
+import PopOver from "../../components/PopOver";
 const templateId = "template_5znn1r9";
 const publicKey = "uPeBHE0h75mul_nkP";
 const service = "service_8ylx4rs"
+
 const ContactUs = () => {
     return (
         <Grid
@@ -35,6 +41,28 @@ const ContactUs = () => {
                 </Grid>
                 <Grid item sm={0} md={6} sx={{ display: { xs: 'none', md: 'flex' } }}>
                     <LottileAnimaton />
+                </Grid>
+                <Grid item xs={12}>
+                    <Grid container
+                        sx={{ justifyContent: 'center', gap: 1 }}
+                    >
+                        <a href="https://www.linkedin.com/in/krishnam-raju-jampana-82b362aa/" target="_blank">
+                            <LinkedInIcon sx={{ fontSize: 40, color: "cyan" }} />
+                        </a>
+
+                        <PopOver
+                            Icon={ContactPhoneIcon}
+                            text="9966475444"
+                            idd="phone"
+                        />
+                        <PopOver
+                            Icon={ContactMailIcon}
+                            text="krishanmraju@gmail.com"
+                            idd="gmail"
+                        />
+
+                    </Grid>
+
                 </Grid>
             </Grid>
         </Grid>

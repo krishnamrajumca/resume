@@ -9,10 +9,11 @@ const exp = [
         "iconBg": "#383E56",
         "date": "Nov 2014 - Jan 2019",
         "points": [
-            "Communicated with teammates to clarify requirements.",
-            "Developed, implemented and maintained production code for client websites.",
-            "Created unit tests and reported them.",
-            "Wrote detailed designs for business flows."
+            "Collaborated with designers to implement the concept and design of the website.",
+            "Integrated RESTful APIs into the code base, enhancing the functionality and communication capabilities of the system.",
+            "Integrated payment processing features onto PAX terminals.",
+            "Integrated the codebase with Star printers to enable seamless bill printing functionality.",
+            "Implemented Firebase integration to enable notifications, providing real-time updates and enhancing the user engagement and experience."
         ]
     },
     {
@@ -23,9 +24,9 @@ const exp = [
         "date": "Jan 2019 - Current",
         "points": [
             "Communicated with teammates to clarify requirements.",
-            "Developed, implemented and maintained production code for client websites.",
-            "Created unit tests and reported them.",
-            "Wrote detailed designs for business flows."
+            "Collaborated with designers to implement the concept and design of the website.",
+            "Implemented Firebase integration to enable notifications, providing real-time updates and enhancing the user engagement and experience.",
+            "Integrated RESTful APIs into the code base, enhancing the functionality and communication capabilities of the system."
         ]
     }
 ]

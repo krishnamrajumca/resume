@@ -12,7 +12,7 @@ const Experience = () => {
             }
         }}>
             <Grid container
-                sx={{ padding: "24px", display: 'flex', flexDirection: 'column', gap: 4, alignItems: 'flex-start' }}
+                sx={{ padding: "24px", display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}
             >
                 <Typography
                     sx={{ fontSize: 20 }}

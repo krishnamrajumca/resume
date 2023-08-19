@@ -74,7 +74,12 @@ video {
 #exp {
   background-image: url('../src/assets/images/2.jpeg');
   background-position: center;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
+  height: -moz-fit-content;
+  /* Firefox */
+  height: -webkit-fit-content;
+  /* WebKit-based browsers (Safari) */
+  height: fit-content;
   min-height: 100vh;
   background-repeat: no-repeat;
 
@@ -184,4 +189,15 @@ video {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff5733;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }

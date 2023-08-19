@@ -2,6 +2,7 @@ import { Typography, Grid, Paper } from "@mui/material"
 
 import Ball from "../../components/Ball"
 import tech from '../../constants/tech'
+import Progressbar from "../../components/ProgressBar"
 const Skills = () => {
     return (
         <Grid container
@@ -33,6 +34,29 @@ const Skills = () => {
                 sx={{
                     justifyContent: 'center',
                     gap: 3,
+                    // marginTop: '100px',
+                    padding: {
+                        xs: 2,
+                        sm: 3,
+                        md: 5
+                    },
+                    // flexDirection: 'column'
+                    // backgroundColor: "black"
+                }}
+            >
+                {
+                    tech.map((t, i) => (
+                        <Grid item sx={{ width: 350 }} key={t.id}>
+                            <Progressbar value={t.per} label={t.title} icon={t.icon} />
+                        </Grid>
+                    ))
+                }
+
+            </Grid>
+            {/* <Grid container
+                sx={{
+                    justifyContent: 'center',
+                    gap: 3,
                     marginTop: '100px',
                     padding: {
                         xs: 2,
@@ -56,8 +80,9 @@ const Skills = () => {
                     ))
                 }
 
-            </Grid>
-        </Grid>
+            </Grid> */}
+
+        </Grid >
     )
 }
 export default Skills;

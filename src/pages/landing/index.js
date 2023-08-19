@@ -43,7 +43,7 @@ const Landing = () => {
                     whileHover={{ scale: 1.2, borderColor: "#03e94f", }}
                     // initial={true}
                     whileInView={{
-                        borderColor: "#03e9f4", transition: { yoyo: Infinity, duration: 3 }, opacity: 1,
+                        borderColor: "#03e9f4", transition: { yoyo: Infinity, duration: 13 }, opacity: 1,
                     }}
                     src={Krishna} className="image"
                 />
